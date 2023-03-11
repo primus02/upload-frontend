@@ -29,7 +29,7 @@ app.use(cors());
 // })
 
 
-const connection= mongoose.connect("mongodb+srv://Honorroads:Godstimeisbest2023@cluster0.3jlbs8e.mongodb.net/?retryWrites=true&w=majority")
+const connection= mongoose.connect("mongodb+srv://Honorroads:Godstimeisbest2023@cluster0.3jlbs8e.mongodb.net/?retryWrites=true&w=majority");
 if(connection){
     console.log("DATABASE CONNECTED");
 }
